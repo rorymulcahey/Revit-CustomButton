@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Application CustomButton</Name>
+    <Assembly>CustomButton.dll</Assembly>
+    <FullClassName>CustomButton.App</FullClassName>
+    <ClientId>7e1d20e7-31c7-4fe9-924b-a7eb62280e4f</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>Rory Mulcahey, rory.mulcahey@vanagetcg.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
