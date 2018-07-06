@@ -1,0 +1,5 @@
+C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\bin\Release\CustomButton.dll
+C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\bin\Release\CustomButton.pdb
+C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Release\CustomButton.csproj.CoreCompileInputs.cache
+C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Release\CustomButton.dll
+C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Release\CustomButton.pdb

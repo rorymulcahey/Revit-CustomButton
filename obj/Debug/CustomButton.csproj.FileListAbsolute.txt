@@ -1,6 +1,6 @@
 C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\bin\Debug\CustomButton.dll
 C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\bin\Debug\CustomButton.pdb
-C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.csprojAssemblyReference.cache
 C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.csproj.CoreCompileInputs.cache
 C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.dll
 C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.pdb
+C:\Users\rorymulcahey\source\repos\CustomButton\CustomButton\obj\Debug\CustomButton.csprojAssemblyReference.cache

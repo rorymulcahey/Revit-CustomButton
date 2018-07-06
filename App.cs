@@ -32,8 +32,8 @@ namespace CustomButton
                 "New Button Name", thisAssemblyPath, typeof(ExecuteCommand).FullName);
 
             // Does the same as the above
-            //PushButtonData buttonData = new PushButtonData("cmdDeleteViews",
-            //"Delete Views", thisAssemblyPath, "RevitWarnings.DeleteViews");
+            // PushButtonData buttonData = new PushButtonData("cmdDeleteViews",
+            //     "Delete Views", thisAssemblyPath, "RevitWarnings.DeleteViews");
 
             // Creates a Button
             PushButton pushButton = ribbonPanel.AddItem(buttonData) as PushButton;
