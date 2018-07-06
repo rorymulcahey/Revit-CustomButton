@@ -41,7 +41,7 @@ namespace CustomButton
             pushButton.ToolTip = "How to use the button";
 
             // Adds picture for button
-            Uri uriImage = new Uri(@"C:\Users\rorymulcahey\AppData\Roaming\Autodesk\Revit\Addins\2015\Views.png");
+            Uri uriImage = new Uri(@"%APPDATA%\Autodesk\Revit\Addins\2015\Views.png");
             BitmapImage largeImage = new BitmapImage(uriImage);
             pushButton.LargeImage = largeImage;
 
