@@ -57,7 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Command.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +69,7 @@
   </Target>
   <PropertyGroup>
     <PostBuildEvent>copy "$(ProjectDir)CustomButton.addin" "$(AppData)\Autodesk\REVIT\Addins\2015"
-copy "$(ProjectDir)bin\debug\CustomButton.dll" "$(AppData)\Autodesk\REVIT\Addins\2015"</PostBuildEvent>
+copy "$(ProjectDir)bin\debug\CustomButton.dll" "$(AppData)\Autodesk\REVIT\Addins\2015"
+copy "$(ProjectDir)Views.png" "$(AppData)\Autodesk\REVIT\Addins\2015"</PostBuildEvent>
   </PropertyGroup>
 </Project>

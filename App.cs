@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.IO;
 
 //Requires PresentationCore Addin to become active
 using System.Windows.Media.Imaging;
@@ -41,7 +42,11 @@ namespace CustomButton
             pushButton.ToolTip = "How to use the button";
 
             // Adds picture for button
-            Uri uriImage = new Uri(@"%APPDATA%\Autodesk\Revit\Addins\2015\Views.png");
+            string filename = @"\Views.png";
+            string currentDir = AssemblyDirectory;
+            //Uri uriImage = new Uri(@"%APPDATA%\Autodesk\Revit\Addins\2015\Views.png");
+            //Uri uriImage = new Uri(@"C:\Users\rorymulcahey\AppData\Roaming\Autodesk\Revit\Addins\2015\Views.png");
+            Uri uriImage = new Uri(currentDir + filename);
             BitmapImage largeImage = new BitmapImage(uriImage);
             pushButton.LargeImage = largeImage;
 
@@ -51,6 +56,18 @@ namespace CustomButton
         public Result OnShutdown(UIControlledApplication application)
         {
             return Result.Succeeded; // must return
+        }
+
+        // Finds the current directory
+        public static string AssemblyDirectory
+        {
+            get
+            {
+                string codeBase = Assembly.GetExecutingAssembly().CodeBase;
+                UriBuilder uri = new UriBuilder(codeBase);
+                string path = Uri.UnescapeDataString(uri.Path);
+                return Path.GetDirectoryName(path);
+            }
         }
     }
 
